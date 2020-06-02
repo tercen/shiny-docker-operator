@@ -10,7 +10,7 @@ VERSION=0.10.0.0
 docker build -t tercen/shiny_docker_operator:$VERSION .
 docker push tercen/shiny_docker_operator:$VERSION
 # see operator.json -- "container": "tercen/atsne:1.1.8"
-git add -A && git commit -m "$VERSION" && git tag -a $VERSION -m "++" && git push && git push --tags
+git add -A && git commit -m "$VERSION" && git tag  $VERSION  && git push && git push --tags
 ```
 
 ```bash
