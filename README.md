@@ -1,10 +1,14 @@
-# shiny_docker_operator
+# Shiny docker operator
+
+##### Description
+
+A simple example of a shiny docker operator.
 
 ```
 https://github.com/tercen/shiny_docker_operator.git
 ```
 
-## Build
+##### Build
 
 ```bash
 VERSION=0.10.0.1
