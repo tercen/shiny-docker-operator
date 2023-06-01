@@ -4,7 +4,7 @@
   "tags": ["template", "example"],
   "authors": ["tercen"],
   "urls": ["https://github.com/tercen/shiny_docker_operator"],
-  "container": "tercen/shiny_docker_operator:0.12.0",
+  "container": "tercen/shiny_docker_operator:0.12.2",
   "isWebApp": true,
   "isViewOnly": false
 }
