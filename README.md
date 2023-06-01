@@ -13,6 +13,7 @@ https://github.com/tercen/shiny_docker_operator.git
 ```bash
 VERSION=0.12.0
 docker build -t tercen/shiny_docker_operator:$VERSION .
+docker build -t tercen/shiny_docker_operator:0.11.0-1 .
 docker push tercen/shiny_docker_operator:$VERSION
 git add -A && git commit -m "$VERSION" && git tag  $VERSION  && git push && git push --tags
 ```
