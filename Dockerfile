@@ -8,7 +8,7 @@ RUN git clone https://github.com/tercen/shiny_operator2.git
 WORKDIR /operator/shiny_operator2
 
 RUN echo 0.11.0 && git pull
-RUN git checkout 0.11.0
+RUN git checkout 0.12.0
 
 RUN R -e "renv::restore(confirm=FALSE)"
 
